@@ -35,17 +35,17 @@
 
 ## Overview
 
-![screenshot](.\images\desktop_light.png)
+![screenshot](./images/desktop_light.png)
 
 
 The challenge is to build out this landing page about a Social Media Dashboard. It have a switch to toggle the theme between Dark and Light Mode.
 
-![screenshot](.\images\desktop_dark.png)
+![screenshot](./images/desktop_dark.png)
 
 The responsive design was made with 2 breakpoints: 768px y 576px.
 
-![screenshot](.\images\mobile_light.png)
-![screenshot](.\images\mobile_dark.png)
+![screenshot](./images/mobile_light.png)
+![screenshot](./images/mobile_dark.png)
 
 Special thanks to [Emmilie Estabillo. ](https://github.com/emestabillo), for her advice on generating the border on the Instagram card.
 
