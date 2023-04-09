@@ -155,9 +155,23 @@ p{
 #mainInstagramCard{
   grid-column: 3 / 4;
   grid-row: 2 / 4;
-  border-radius: 5px;
-  border-image: linear-gradient(to right,hsl(37,97%,70%) , hsl(329,70%,58%)) 1 ;
-  border-top: 5px solid transparent;
+  /* border-radius: 5px; */
+  position: relative;
+  padding: 7% 5% 5% 5%;
+  /* border-image: linear-gradient(to right,hsl(37,97%,70%) , hsl(329,70%,58%)) 1 ;
+  border-top: 5px solid transparent; */
+}
+
+#mainInstagramCard::before{
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 5px;
+  top: 0;
+  left: 0;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+  background: linear-gradient(to right,hsl(37,97%,70%) , hsl(329,70%,58%));
 }
 
 #mainYouTubeCard{
